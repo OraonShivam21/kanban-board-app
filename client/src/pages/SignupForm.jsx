@@ -13,7 +13,7 @@ const SignupForm = () => {
     e.preventDefault();
     try {
       if (password !== confirmPassword) alert("Passwords don't match in the form...");
-      const response = await axios.post("http://localhost:3000/users/register", {
+      const response = await axios.post("https://kanban-board-app-itnu.onrender.com/users/register", {
         email,
         password,
       });
