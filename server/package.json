@@ -4,8 +4,8 @@
   "description": "Kanban Board is an app, where user can create their tasks and subtasks under it to keep a track of them.",
   "main": "server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.ts",
+    "build": "tsc",
+    "start": "node ./dist/server.js",
     "server": "nodemon server.ts"
   },
   "keywords": [],
